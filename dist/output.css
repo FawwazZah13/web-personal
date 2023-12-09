@@ -1416,6 +1416,19 @@ body {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+:is(.dark .dark\:hover\:text-primary:hover) {
+  --tw-text-opacity: 1;
+  color: rgb(5 150 105 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:hover\:text-\[rimary\]:hover) {
+  color: rimary;
+}
+
+:is(.dark .dark\:hover\:text-\[\]:hover) {
+  color: ;
+}
+
 @media (min-width: 640px) {
   .sm\:text-4xl {
     font-size: 2.25rem;
