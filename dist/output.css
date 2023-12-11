@@ -1319,21 +1319,6 @@ body {
   }
 }
 
-#bouncing-ball {
-  animation: bounce 3s infinite;
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    top: 0;
-  }
-
-  50% {
-    top: calc(4vh - 3px);
-  }
-}
-
 /* Terapkan animasi zoom pada kelas svg-zoom saat hover */
 
 .hover\:svg-zoom {
